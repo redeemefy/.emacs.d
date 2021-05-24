@@ -1,3 +1,3 @@
 (use-package all-the-icons)
 
-(provide 'init-all-icons)
+(provide 'init-all-the-icons)

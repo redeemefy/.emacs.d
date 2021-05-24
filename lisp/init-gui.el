@@ -5,6 +5,9 @@
 (scroll-bar-mode -1) ; ------------------------------------------------- Disable scroll bar
 (tool-bar-mode -1) ; --------------------------------------------------- Disable tool bar
 (column-number-mode) ; ------------------------------------------------- Display column numbers in status bar
+
 (global-display-line-numbers-mode t) ; --------------------------------- Display line numbers
+(dolist (mode '(shell-mode-hook)) ; ------------------------------------ Disable line numbers in shell-mode
+  (add-hook mode (lambda () (display-line-numbers-mode 0))))
 
 (provide 'init-gui)
