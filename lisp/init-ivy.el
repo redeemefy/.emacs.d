@@ -4,7 +4,7 @@
   :config (ivy-mode 1)) ; ---------------------------- Better search interface
 
 (use-package ivy-rich
-  :init(ivy-rich-mode 1)) ; -------------------------- Short documentation when serching commands
+  :init (ivy-rich-mode 1)) ; -------------------------- Short documentation when serching commands
 
 (use-package counsel
   :bind (("M-x" . counsel-M-x)
