@@ -10,3 +10,4 @@
 (require 'init-ivy) ; ------------------------------------------------------- Better search with ivy/counsel/swiper
 (require 'init-evil) ; ------------------------------------------------------ Vim inside emacs
 (require 'init-which-key) ; ------------------------------------------------- Key completion in status bar window
+(require 'init-helpful) ; --------------------------------------------------- Better documentation when using describe
