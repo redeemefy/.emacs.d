@@ -2,7 +2,7 @@
 
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory)) ; --- Load the lisp directory
 (require 'init-package) ; --------------------------------------------------- Resources elpa/melpa/etc
-(require 'init-keybindings) ; ----------------------------------------------- Custom keybindings
+(require 'init-keybindings) ; ----------------------------------------------- Custom keybindings with evil-leader -- must load before evil
 (require 'init-gui) ; ------------------------------------------------------- Gui settings
 (require 'init-rainbow-delimiters) ; ---------------------------------------- Matching color for parenthesys/brackets
 (require 'init-all-the-icons) ; --------------------------------------------- Enable all-the-icons -- doom-modeline dependency
