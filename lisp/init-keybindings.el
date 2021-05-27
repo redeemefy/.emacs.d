@@ -12,7 +12,9 @@
     "kb" 'kill-buffer ; -------------------------------------- Default kill buffer
     "i" 'swiper ; -------------------------------------------- Isearch current buffer with swiper
     "zsh" 'shell ; ------------------------------------------- Default open shell buffer
-    "sb" 'save-buffer)) ; ------------------------------------ Default save current buffer
+    "sb" 'save-buffer ; -------------------------------------- Default save current buffer
+    "mx" 'counsel-M-x ; -------------------------------------- Easier access to M-x
+    ))
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit) ; ---- Get out of mini-buffer command such as C-x/M-x
 
