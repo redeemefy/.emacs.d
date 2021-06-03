@@ -1,7 +1,8 @@
 ;; VIM SETTINGS
 (use-package evil
-  :ensure t
   :config
+  (evil-mode 1)
+  (define-key evil-insert-state-map "jj" 'evil-normal-state)
+  (define-key evil-visual-state-map "vv" 'evil-normal-state))
 
-  (evil-mode 1))
 (provide 'init-evil)
